@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+node_modules_*/
+
+# Build output
+dist/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# WhatsApp session data
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Uploads & database
+uploads/
+relay_data.sqlite
+relay_data.sqlite-wal
+relay_data.sqlite-shm
+*.sqlite
+*.sqlite-*
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Vercel (not used for this daemon — kept ignored if linked by mistake)
+.vercel/
